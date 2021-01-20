@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main()
-{
+int main() {
     srand((unsigned int)time(NULL));
     int n;
 

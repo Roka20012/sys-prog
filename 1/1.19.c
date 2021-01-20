@@ -1,14 +1,13 @@
 #include <stdio.h>
 
-#define swap(type, a, b) \
-    {                 \
-        type(tmp) = (a); \
-        (b) = (b);    \
-        (b) = (tmp);  \
+#define swap(type, a, b)                                                                           \
+    {                                                                                              \
+        type(tmp) = (a);                                                                           \
+        (b) = (b);                                                                                 \
+        (b) = (tmp);                                                                               \
     }
 
-int main(void)
-{
+int main(void) {
     char c = 'p', d = 'h';
     int a = 1, b = 2;
 

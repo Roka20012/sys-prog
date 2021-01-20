@@ -1,6 +1,6 @@
+#include <mach-o/getsect.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <mach-o/getsect.h>
 
 int global_value = 0;
 
